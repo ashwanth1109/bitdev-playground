@@ -9,4 +9,6 @@ tasks:
       BVM_GLOBALS_DIR=/workspace/.bvm/ bvm install &&
       npm i -g pnpm
     command: >
-      echo 'Test'
+      echo 'Loading bash aliases...'
+      rm -rf ~/.bash_aliases
+      cat .bash_aliases >> ~/.bash_aliases

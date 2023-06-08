@@ -1,0 +1,5 @@
+alias rf='source ~/.bashrc'
+alias load='cd /workspace/bitdev-playground && rm -rf ~/.bash_aliases && cat .bash_aliases >> ~/.bash_aliases && rf && cd playground-workspace'
+alias bi='bit install'
+alias bcl='bit compile && bit link'
+alias br='bit run my-app'
