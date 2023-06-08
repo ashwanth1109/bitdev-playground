@@ -1,0 +1,12 @@
+tasks:
+  - name: Setup workspace
+    init: >
+      mkdir -p  /workspace/.npm/node_modules &&
+      gp env NPM_CONFIG_PREFIX=/workspace/.npm/node_modules &&
+      eval $(gp env -e) &&
+      export PATH=/workspace/bin:/workspace/.npm/node_modules/bin:$HOME/bin:$PATH &&
+      npm i -g @teambit/bvm &&
+      BVM_GLOBALS_DIR=/workspace/.bvm/ bvm install &&
+      npm i -g pnpm
+    command: >
+      echo 'Test'
