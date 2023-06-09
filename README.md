@@ -7,7 +7,7 @@
 ## Getting started (Playground Workspace):
 
 ```bash
-cd playground
+cd playground-workspace
 bit install
 bit compile && bit link
 bit run my-app
