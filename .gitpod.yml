@@ -13,6 +13,8 @@ tasks:
       rm -rf ~/.bash_aliases &&
       cat .bash_aliases >> ~/.bash_aliases &&
       cd playground-workspace &&
+      bit config set analytics_reporting true &&
+      bit config set error_reporting true &&
       bit install &&
       bit compile &&
       bit link &&
