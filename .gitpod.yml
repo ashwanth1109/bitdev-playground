@@ -9,6 +9,11 @@ tasks:
       BVM_GLOBALS_DIR=/workspace/.bvm/ bvm install &&
       npm i -g pnpm
     command: >
-      echo 'Loading bash aliases...'
-      rm -rf ~/.bash_aliases
-      cat .bash_aliases >> ~/.bash_aliases
+      echo 'Loading bash aliases...' &&
+      rm -rf ~/.bash_aliases &&
+      cat .bash_aliases >> ~/.bash_aliases &&
+      cd playground-workspace &&
+      bit install &&
+      bit compile &&
+      bit link &&
+      bit run 
