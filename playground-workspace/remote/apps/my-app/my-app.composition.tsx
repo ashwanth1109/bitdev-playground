@@ -1,4 +1,4 @@
 import React from 'react';
-import { MyApp } from "./my-app";
+import { MyApp } from './my-app';
 
-export const MyAppBasic = () => <MyApp />
+export const MyAppBasic = () => <MyApp />;
