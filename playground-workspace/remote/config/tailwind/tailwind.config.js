@@ -8,6 +8,7 @@ export default {
     extend: {},
   },
   plugins: [
+    /* eslint-disable global-require */
     require('@tailwindcss/typography'),
   ],
 };
