@@ -28,8 +28,7 @@ jobs:
         run: bvm install
       - name: add bvm bin folder to path
         run: echo "$HOME/bin" >> $GITHUB_PATH
-      - name: CD into workspace
-        run: cd playground-workspace
+        working-directory: playground-workspace
       # Set the right bit config for the pipeline
       - name: Bit config
         run: |
