@@ -6,4 +6,15 @@ import type { WebpackConfigMutator } from '@teambit/webpack';
  */
 export const webpackTransformer = (
   configMutator: WebpackConfigMutator
-): WebpackConfigMutator => configMutator;
+): WebpackConfigMutator => {
+  const newWebpackConfig = {
+    output: {
+      publicPath: '/',
+    },
+    devServer: {
+      historyApiFallback: true,
+    },
+  };
+  configMutator.merge([newWebpackConfig]);
+  return configMutator;
+};

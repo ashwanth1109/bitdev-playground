@@ -4,6 +4,9 @@ importers:
 
   .:
     dependencies:
+      '@learnbit/styling.config.tailwind':
+        specifier: ^0.0.2
+        version: 0.0.2
       '@learnbit/styling.transformers.tailwind':
         specifier: ^0.0.5
         version: 0.0.5
@@ -68,9 +71,6 @@ importers:
       '@babel/runtime':
         specifier: 7.20.0
         version: registry.npmjs.org/@babel/runtime@7.20.0
-      '@learnbit/styling.config.tailwind':
-        specifier: ^0.0.2
-        version: 0.0.2
       '@teambit/react.react-env':
         specifier: 0.0.68
         version: 0.0.68(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.9)
@@ -93,7 +93,7 @@ importers:
         specifier: 5.9.5
         version: registry.npmjs.org/@types/testing-library__jest-dom@5.9.5
 
-  node_modules/.bit_roots/ashwanth1109.remote_apps_my-app:
+  node_modules/.bit_roots/ashwanth1109.remote_apps_my-app@0.0.1:
     dependencies:
       '@ashwanth1109/remote.apps.my-app':
         specifier: workspace:*
@@ -107,6 +107,12 @@ importers:
       '@ashwanth1109/remote.ui.heading':
         specifier: workspace:*
         version: file:remote/ui/heading(react@18.2.0)
+      '@learnbit/styling.config.tailwind':
+        specifier: ^0.0.2
+        version: 0.0.2
+      '@learnbit/styling.transformers.tailwind':
+        specifier: ^0.0.5
+        version: 0.0.5
       '@mdx-js/react':
         specifier: 1.6.22
         version: registry.npmjs.org/@mdx-js/react@1.6.22(react@18.2.0)
@@ -151,7 +157,7 @@ importers:
       '@ashwanth1109/remote.ui.heading':
         injected: true
 
-  node_modules/.bit_roots/ashwanth1109.remote_envs_my-react-env:
+  node_modules/.bit_roots/ashwanth1109.remote_envs_my-react-env@0.0.1:
     dependencies:
       '@ashwanth1109/remote.apps.my-app':
         specifier: workspace:*
@@ -288,6 +294,12 @@ importers:
 
   remote/apps/my-app:
     dependencies:
+      '@learnbit/styling.config.tailwind':
+        specifier: ^0.0.2
+        version: 0.0.2
+      '@learnbit/styling.transformers.tailwind':
+        specifier: ^0.0.5
+        version: 0.0.5
       '@mdx-js/react':
         specifier: 1.6.22
         version: registry.npmjs.org/@mdx-js/react@1.6.22(react@18.2.0)
@@ -325,9 +337,6 @@ importers:
 
   remote/config/tailwind:
     dependencies:
-      '@tailwindcss/typography':
-        specifier: ^0.5.9
-        version: registry.npmjs.org/@tailwindcss/typography@0.5.9
       glob:
         specifier: 10.2.6
         version: registry.npmjs.org/glob@10.2.6
@@ -475,7 +484,7 @@ packages:
     dev: false
 
   /@teambit/base-react.navigation.link@2.0.27(@testing-library/react@13.4.0)(@types/react@17.0.60)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-ZCQxvK+jLOilJMnAnOZAAf9ya+w=, tarball: https://node.bit.dev/@teambit/base-react.navigation.link/-/@teambit-base-react.navigation.link-2.0.27.tgz}
+    resolution: {integrity: sha1-ZCQxvK+jLOilJMnAnOZAAf9ya+w=, tarball: https://node.bit.cloud/@teambit/base-react.navigation.link/-/@teambit-base-react.navigation.link-2.0.27.tgz}
     peerDependencies:
       '@testing-library/react': '*'
       '@types/react': '*'
@@ -501,7 +510,7 @@ packages:
     dev: false
 
   /@teambit/base-react.navigation.link@2.0.27(@testing-library/react@13.4.0)(@types/react@18.2.9)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-ZCQxvK+jLOilJMnAnOZAAf9ya+w=, tarball: https://node.bit.dev/@teambit/base-react.navigation.link/-/@teambit-base-react.navigation.link-2.0.27.tgz}
+    resolution: {integrity: sha1-ZCQxvK+jLOilJMnAnOZAAf9ya+w=, tarball: https://node.bit.cloud/@teambit/base-react.navigation.link/-/@teambit-base-react.navigation.link-2.0.27.tgz}
     peerDependencies:
       '@testing-library/react': '*'
       '@types/react': '*'
@@ -526,7 +535,7 @@ packages:
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
 
   /@teambit/base-react.theme.theme-provider@1.95.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-CBX15Vnm/ZI8JgjJKI170gnN0r8=, tarball: https://node.bit.dev/@teambit/base-react.theme.theme-provider/-/@teambit-base-react.theme.theme-provider-1.95.3.tgz}
+    resolution: {integrity: sha1-CBX15Vnm/ZI8JgjJKI170gnN0r8=, tarball: https://node.bit.cloud/@teambit/base-react.theme.theme-provider/-/@teambit-base-react.theme.theme-provider-1.95.3.tgz}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -541,7 +550,7 @@ packages:
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
 
   /@teambit/base-react.themes.theme-switcher@1.0.2(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-ohfnPt23FmLPqATiPMmBwSeIpIA=, tarball: https://node.bit.dev/@teambit/base-react.themes.theme-switcher/-/@teambit-base-react.themes.theme-switcher-1.0.2.tgz}
+    resolution: {integrity: sha1-ohfnPt23FmLPqATiPMmBwSeIpIA=, tarball: https://node.bit.cloud/@teambit/base-react.themes.theme-switcher/-/@teambit-base-react.themes.theme-switcher-1.0.2.tgz}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -556,7 +565,7 @@ packages:
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
 
   /@teambit/community.constants.links@0.0.2:
-    resolution: {integrity: sha1-cUo3bbFCwlI564kZTrREbBRp234=, tarball: https://node.bit.dev/@teambit/community.constants.links/-/@teambit-community.constants.links-0.0.2.tgz}
+    resolution: {integrity: sha1-cUo3bbFCwlI564kZTrREbBRp234=, tarball: https://node.bit.cloud/@teambit/community.constants.links/-/@teambit-community.constants.links-0.0.2.tgz}
 
   /@teambit/compilation.compiler-task@0.0.4:
     resolution: {integrity: sha1-E7zkrOiXjuabhEx8JTjD1ojIYX4=, tarball: https://node.bit.dev/@teambit/compilation.compiler-task/-/@teambit-compilation.compiler-task-0.0.4.tgz}
@@ -648,7 +657,7 @@ packages:
       strip-ansi: registry.npmjs.org/strip-ansi@6.0.0
 
   /@teambit/design.themes.base-theme@0.1.0(@testing-library/react@13.4.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-V2cI94Nm8O1ShJoQwK8wavfYo50=, tarball: https://node.bit.dev/@teambit/design.themes.base-theme/-/@teambit-design.themes.base-theme-0.1.0.tgz}
+    resolution: {integrity: sha1-V2cI94Nm8O1ShJoQwK8wavfYo50=, tarball: https://node.bit.cloud/@teambit/design.themes.base-theme/-/@teambit-design.themes.base-theme-0.1.0.tgz}
     peerDependencies:
       '@testing-library/react': '*'
       react: '*'
@@ -670,7 +679,7 @@ packages:
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
 
   /@teambit/design.themes.dark-theme@1.91.0(@testing-library/react@13.4.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-bwvJgtmAX99/BfXo/HXq4uBsppY=, tarball: https://node.bit.dev/@teambit/design.themes.dark-theme/-/@teambit-design.themes.dark-theme-1.91.0.tgz}
+    resolution: {integrity: sha1-bwvJgtmAX99/BfXo/HXq4uBsppY=, tarball: https://node.bit.cloud/@teambit/design.themes.dark-theme/-/@teambit-design.themes.dark-theme-1.91.0.tgz}
     peerDependencies:
       '@testing-library/react': '*'
       react: '*'
@@ -690,7 +699,7 @@ packages:
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
 
   /@teambit/design.themes.light-theme@0.1.0(@testing-library/react@13.4.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-Ac1kTk+HDvWo8mW3jBcMuChEY8k=, tarball: https://node.bit.dev/@teambit/design.themes.light-theme/-/@teambit-design.themes.light-theme-0.1.0.tgz}
+    resolution: {integrity: sha1-Ac1kTk+HDvWo8mW3jBcMuChEY8k=, tarball: https://node.bit.cloud/@teambit/design.themes.light-theme/-/@teambit-design.themes.light-theme-0.1.0.tgz}
     peerDependencies:
       '@testing-library/react': '*'
       react: '*'
@@ -710,7 +719,7 @@ packages:
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
 
   /@teambit/design.themes.theme-toggler@0.1.3(@testing-library/react@13.4.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-YjcrpFPsM/OhlOMlrs12oDM+mnc=, tarball: https://node.bit.dev/@teambit/design.themes.theme-toggler/-/@teambit-design.themes.theme-toggler-0.1.3.tgz}
+    resolution: {integrity: sha1-YjcrpFPsM/OhlOMlrs12oDM+mnc=, tarball: https://node.bit.cloud/@teambit/design.themes.theme-toggler/-/@teambit-design.themes.theme-toggler-0.1.3.tgz}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -731,7 +740,7 @@ packages:
       - '@testing-library/react'
 
   /@teambit/design.ui.icon-button@1.0.16(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-4guwxtPII430l1WuK5krEgo4PUY=, tarball: https://node.bit.dev/@teambit/design.ui.icon-button/-/@teambit-design.ui.icon-button-1.0.16.tgz}
+    resolution: {integrity: sha1-4guwxtPII430l1WuK5krEgo4PUY=, tarball: https://node.bit.cloud/@teambit/design.ui.icon-button/-/@teambit-design.ui.icon-button-1.0.16.tgz}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -749,7 +758,7 @@ packages:
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
 
   /@teambit/docs.docs-template@0.0.11(@testing-library/react@13.4.0)(@types/react@17.0.60)(graphql@14.7.0)(typescript@4.9.3):
-    resolution: {integrity: sha1-KxXFxuFSYWG0eLaxXVbGN6rv21s=, tarball: https://node.bit.dev/@teambit/docs.docs-template/-/@teambit-docs.docs-template-0.0.11.tgz}
+    resolution: {integrity: sha1-KxXFxuFSYWG0eLaxXVbGN6rv21s=, tarball: https://node.bit.cloud/@teambit/docs.docs-template/-/@teambit-docs.docs-template-0.0.11.tgz}
     dependencies:
       '@teambit/react.ui.docs-app': registry.npmjs.org/@teambit/react.ui.docs-app@0.0.200(@testing-library/react@13.4.0)(@types/react@17.0.60)(graphql@14.7.0)(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.3)
       core-js: registry.npmjs.org/core-js@3.30.2
@@ -764,7 +773,7 @@ packages:
     dev: false
 
   /@teambit/docs.docs-template@0.0.11(@testing-library/react@13.4.0)(@types/react@17.0.60)(graphql@14.7.0)(typescript@5.1.3):
-    resolution: {integrity: sha1-KxXFxuFSYWG0eLaxXVbGN6rv21s=, tarball: https://node.bit.dev/@teambit/docs.docs-template/-/@teambit-docs.docs-template-0.0.11.tgz}
+    resolution: {integrity: sha1-KxXFxuFSYWG0eLaxXVbGN6rv21s=, tarball: https://node.bit.cloud/@teambit/docs.docs-template/-/@teambit-docs.docs-template-0.0.11.tgz}
     dependencies:
       '@teambit/react.ui.docs-app': registry.npmjs.org/@teambit/react.ui.docs-app@0.0.200(@testing-library/react@13.4.0)(@types/react@17.0.60)(graphql@14.7.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)
       core-js: registry.npmjs.org/core-js@3.30.2
@@ -779,7 +788,7 @@ packages:
     dev: false
 
   /@teambit/docs.docs-template@0.0.11(@testing-library/react@13.4.0)(@types/react@18.2.9)(graphql@14.7.0)(typescript@4.9.3):
-    resolution: {integrity: sha1-KxXFxuFSYWG0eLaxXVbGN6rv21s=, tarball: https://node.bit.dev/@teambit/docs.docs-template/-/@teambit-docs.docs-template-0.0.11.tgz}
+    resolution: {integrity: sha1-KxXFxuFSYWG0eLaxXVbGN6rv21s=, tarball: https://node.bit.cloud/@teambit/docs.docs-template/-/@teambit-docs.docs-template-0.0.11.tgz}
     dependencies:
       '@teambit/react.ui.docs-app': registry.npmjs.org/@teambit/react.ui.docs-app@0.0.200(@testing-library/react@13.4.0)(@types/react@18.2.9)(graphql@14.7.0)(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.3)
       core-js: registry.npmjs.org/core-js@3.30.2
@@ -793,7 +802,7 @@ packages:
       - typescript
 
   /@teambit/docs.docs-template@0.0.11(@testing-library/react@13.4.0)(@types/react@18.2.9)(graphql@14.7.0)(typescript@5.1.3):
-    resolution: {integrity: sha1-KxXFxuFSYWG0eLaxXVbGN6rv21s=, tarball: https://node.bit.dev/@teambit/docs.docs-template/-/@teambit-docs.docs-template-0.0.11.tgz}
+    resolution: {integrity: sha1-KxXFxuFSYWG0eLaxXVbGN6rv21s=, tarball: https://node.bit.cloud/@teambit/docs.docs-template/-/@teambit-docs.docs-template-0.0.11.tgz}
     dependencies:
       '@teambit/react.ui.docs-app': registry.npmjs.org/@teambit/react.ui.docs-app@0.0.200(@testing-library/react@13.4.0)(@types/react@18.2.9)(graphql@14.7.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)
       core-js: registry.npmjs.org/core-js@3.30.2
@@ -808,7 +817,7 @@ packages:
     dev: false
 
   /@teambit/graphql.hooks.use-query-light@1.0.0(graphql@14.7.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-FUGp8ZjK399H63okAGKoLjBGtIE=, tarball: https://node.bit.dev/@teambit/graphql.hooks.use-query-light/-/@teambit-graphql.hooks.use-query-light-1.0.0.tgz}
+    resolution: {integrity: sha1-FUGp8ZjK399H63okAGKoLjBGtIE=, tarball: https://node.bit.cloud/@teambit/graphql.hooks.use-query-light/-/@teambit-graphql.hooks.use-query-light-1.0.0.tgz}
     peerDependencies:
       graphql: '*'
       react: '*'
@@ -1035,7 +1044,7 @@ packages:
     dev: false
 
   /@teambit/react.apps.react-app-types@0.0.32(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/react@17.0.60)(eslint@7.32.0)(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.3):
-    resolution: {integrity: sha1-ZDW6Go+E+FpjvmuIPKKXIv7ClO4=, tarball: https://node.bit.dev/@teambit/react.apps.react-app-types/-/@teambit-react.apps.react-app-types-0.0.32.tgz}
+    resolution: {integrity: sha1-ZDW6Go+E+FpjvmuIPKKXIv7ClO4=, tarball: https://node.bit.cloud/@teambit/react.apps.react-app-types/-/@teambit-react.apps.react-app-types-0.0.32.tgz}
     dependencies:
       '@prerenderer/prerenderer': registry.npmjs.org/@prerenderer/prerenderer@1.2.1
       '@prerenderer/renderer-jsdom': registry.npmjs.org/@prerenderer/renderer-jsdom@1.1.4
@@ -1051,7 +1060,7 @@ packages:
       express: registry.npmjs.org/express@4.18.2
       fs-extra: registry.npmjs.org/fs-extra@10.1.0
       lodash: registry.npmjs.org/lodash@4.17.21
-      terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin@5.2.0(esbuild@0.14.28)(webpack@5.51.1)
+      terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin@5.2.0(esbuild@0.14.28)(webpack@5.84.1)
       url-join: registry.npmjs.org/url-join@4.0.0
       webpack: registry.npmjs.org/webpack@5.84.1(esbuild@0.14.28)
     transitivePeerDependencies:
@@ -1091,7 +1100,7 @@ packages:
     dev: false
 
   /@teambit/react.apps.react-app-types@0.0.32(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/react@18.2.9)(eslint@7.32.0)(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.3):
-    resolution: {integrity: sha1-ZDW6Go+E+FpjvmuIPKKXIv7ClO4=, tarball: https://node.bit.dev/@teambit/react.apps.react-app-types/-/@teambit-react.apps.react-app-types-0.0.32.tgz}
+    resolution: {integrity: sha1-ZDW6Go+E+FpjvmuIPKKXIv7ClO4=, tarball: https://node.bit.cloud/@teambit/react.apps.react-app-types/-/@teambit-react.apps.react-app-types-0.0.32.tgz}
     dependencies:
       '@prerenderer/prerenderer': registry.npmjs.org/@prerenderer/prerenderer@1.2.1
       '@prerenderer/renderer-jsdom': registry.npmjs.org/@prerenderer/renderer-jsdom@1.1.4
@@ -1107,7 +1116,7 @@ packages:
       express: registry.npmjs.org/express@4.18.2
       fs-extra: registry.npmjs.org/fs-extra@10.1.0
       lodash: registry.npmjs.org/lodash@4.17.21
-      terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin@5.2.0(esbuild@0.14.28)(webpack@5.51.1)
+      terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin@5.2.0(esbuild@0.14.28)(webpack@5.84.1)
       url-join: registry.npmjs.org/url-join@4.0.0
       webpack: registry.npmjs.org/webpack@5.84.1(esbuild@0.14.28)
     transitivePeerDependencies:
@@ -1146,15 +1155,15 @@ packages:
       - webpack-plugin-serve
 
   /@teambit/react.generator.react-starters@0.0.12:
-    resolution: {integrity: sha1-N5gKn+tYMw1W7hSwYAoC1ajoaiA=, tarball: https://node.bit.dev/@teambit/react.generator.react-starters/-/@teambit-react.generator.react-starters-0.0.12.tgz}
+    resolution: {integrity: sha1-N5gKn+tYMw1W7hSwYAoC1ajoaiA=, tarball: https://node.bit.cloud/@teambit/react.generator.react-starters/-/@teambit-react.generator.react-starters-0.0.12.tgz}
     dependencies:
       comment-json: registry.npmjs.org/comment-json@4.2.3
 
   /@teambit/react.generator.react-templates@0.0.10:
-    resolution: {integrity: sha1-dwvkNBPoSIV7DGyVZnpE8UTzHm0=, tarball: https://node.bit.dev/@teambit/react.generator.react-templates/-/@teambit-react.generator.react-templates-0.0.10.tgz}
+    resolution: {integrity: sha1-dwvkNBPoSIV7DGyVZnpE8UTzHm0=, tarball: https://node.bit.cloud/@teambit/react.generator.react-templates/-/@teambit-react.generator.react-templates-0.0.10.tgz}
 
   /@teambit/react.jest.react-jest@0.0.6(@teambit/legacy@node_modules+@teambit+legacy)(@types/node@12.20.4):
-    resolution: {integrity: sha1-9kx1mmO+Z7KqWOJrmXF2pTwEAMQ=, tarball: https://node.bit.dev/@teambit/react.jest.react-jest/-/@teambit-react.jest.react-jest-0.0.6.tgz}
+    resolution: {integrity: sha1-9kx1mmO+Z7KqWOJrmXF2pTwEAMQ=, tarball: https://node.bit.cloud/@teambit/react.jest.react-jest/-/@teambit-react.jest.react-jest-0.0.6.tgz}
     dependencies:
       '@babel/preset-react': registry.npmjs.org/@babel/preset-react@7.18.6(@babel/core@7.19.6)
       '@teambit/defender.jest-tester': 0.0.10(@teambit/legacy@node_modules+@teambit+legacy)(@types/node@12.20.4)
@@ -1182,7 +1191,7 @@ packages:
       react-error-boundary: registry.npmjs.org/react-error-boundary@3.1.4(react@18.2.0)
 
   /@teambit/react.react-env@0.0.68(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@17.0.60):
-    resolution: {integrity: sha1-+47dMWyPsV6mq4SdgfLZoBsuurU=, tarball: https://node.bit.dev/@teambit/react.react-env/-/@teambit-react.react-env-0.0.68.tgz}
+    resolution: {integrity: sha1-+47dMWyPsV6mq4SdgfLZoBsuurU=, tarball: https://node.bit.cloud/@teambit/react.react-env/-/@teambit-react.react-env-0.0.68.tgz}
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime@7.20.0
       '@mdx-js/react': registry.npmjs.org/@mdx-js/react@1.6.22(react@18.2.0)
@@ -1257,7 +1266,7 @@ packages:
     dev: false
 
   /@teambit/react.react-env@0.0.68(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.9):
-    resolution: {integrity: sha1-+47dMWyPsV6mq4SdgfLZoBsuurU=, tarball: https://node.bit.dev/@teambit/react.react-env/-/@teambit-react.react-env-0.0.68.tgz}
+    resolution: {integrity: sha1-+47dMWyPsV6mq4SdgfLZoBsuurU=, tarball: https://node.bit.cloud/@teambit/react.react-env/-/@teambit-react.react-env-0.0.68.tgz}
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime@7.20.0
       '@mdx-js/react': registry.npmjs.org/@mdx-js/react@1.6.22(react@18.2.0)
@@ -1331,7 +1340,7 @@ packages:
       - webpack-plugin-serve
 
   /@teambit/react.rendering.ssr@1.0.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha1-Wt4Y5BoIxJgeVaeJ16DRz1aojcc=, tarball: https://node.bit.dev/@teambit/react.rendering.ssr/-/@teambit-react.rendering.ssr-1.0.1.tgz}
+    resolution: {integrity: sha1-Wt4Y5BoIxJgeVaeJ16DRz1aojcc=, tarball: https://node.bit.cloud/@teambit/react.rendering.ssr/-/@teambit-react.rendering.ssr-1.0.1.tgz}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1504,7 +1513,7 @@ packages:
       typescript: registry.npmjs.org/typescript@4.9.3
 
   /@teambit/webpack.transformers.favicon-reload@0.0.0-3ed06889b56c0672f5ef2a3cbaed9d8ea49afefb:
-    resolution: {integrity: sha1-55Mz4SnszeD67MeRr9pKUkenZX8=, tarball: https://node.bit.dev/@teambit/webpack.transformers.favicon-reload/-/@teambit-webpack.transformers.favicon-reload-0.0.0-3ed06889b56c0672f5ef2a3cbaed9d8ea49afefb.tgz}
+    resolution: {integrity: sha1-55Mz4SnszeD67MeRr9pKUkenZX8=, tarball: https://node.bit.cloud/@teambit/webpack.transformers.favicon-reload/-/@teambit-webpack.transformers.favicon-reload-0.0.0-3ed06889b56c0672f5ef2a3cbaed9d8ea49afefb.tgz}
 
   /@teambit/webpack.webpack-bundler@0.0.9(esbuild@0.14.28):
     resolution: {integrity: sha1-zCt7rNHjLORy/exnScwJC3Z4gfE=, tarball: https://node.bit.dev/@teambit/webpack.webpack-bundler/-/@teambit-webpack.webpack-bundler-0.0.9.tgz}
@@ -1618,7 +1627,7 @@ packages:
     resolution: {directory: remote/apps/my-app, type: directory}
     id: file:remote/apps/my-app
     name: '@ashwanth1109/remote.apps.my-app'
-    version: 0.0.1-new
+    version: 0.0.1
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -1628,27 +1637,30 @@ packages:
       react-dom:
         optional: true
     dependencies:
+      '@ashwanth1109/remote.ui.heading': file:remote/ui/heading(react@18.2.0)
+      '@learnbit/styling.config.tailwind': 0.0.2
+      '@learnbit/styling.transformers.tailwind': 0.0.5
       react: registry.npmjs.org/react@18.2.0
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
       react-router-dom: registry.npmjs.org/react-router-dom@6.8.1(react-dom@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - ts-node
     dev: false
 
   file:remote/config/tailwind:
     resolution: {directory: remote/config/tailwind, type: directory}
     name: '@ashwanth1109/remote.config.tailwind'
-    version: 0.0.1-new
+    version: 0.0.1
     dependencies:
       '@tailwindcss/typography': registry.npmjs.org/@tailwindcss/typography@0.5.9
       glob: registry.npmjs.org/glob@10.2.6
-    transitivePeerDependencies:
-      - tailwindcss
     dev: false
 
   file:remote/envs/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.9)(eslint@7.32.0)(typescript@5.1.3):
     resolution: {directory: remote/envs/my-react-env, type: directory}
     id: file:remote/envs/my-react-env
     name: '@ashwanth1109/remote.envs.my-react-env'
-    version: 0.0.1-new
+    version: 0.0.1
     dependencies:
       '@ashwanth1109/remote.config.tailwind': file:remote/config/tailwind
       '@babel/runtime': registry.npmjs.org/@babel/runtime@7.20.0
@@ -1699,7 +1711,6 @@ packages:
       - sass-embedded
       - sockjs-client
       - supports-color
-      - tailwindcss
       - ts-node
       - type-fest
       - typescript
@@ -1716,7 +1727,7 @@ packages:
     resolution: {directory: remote/ui/heading, type: directory}
     id: file:remote/ui/heading
     name: '@ashwanth1109/remote.ui.heading'
-    version: 0.0.1-new
+    version: 0.0.1
     peerDependencies:
       react: '*'
     peerDependenciesMeta:
@@ -2762,7 +2773,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': registry.npmjs.org/@babel/core@7.11.6
-      '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils@7.10.4
+      '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils@7.21.5
       '@babel/plugin-syntax-object-rest-spread': registry.npmjs.org/@babel/plugin-syntax-object-rest-spread@7.8.3(@babel/core@7.11.6)
       '@babel/plugin-transform-parameters': registry.npmjs.org/@babel/plugin-transform-parameters@7.22.3(@babel/core@7.11.6)
 
@@ -2778,7 +2789,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': registry.npmjs.org/@babel/core@7.12.9
-      '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils@7.10.4
+      '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils@7.21.5
       '@babel/plugin-syntax-object-rest-spread': registry.npmjs.org/@babel/plugin-syntax-object-rest-spread@7.8.3(@babel/core@7.12.9)
       '@babel/plugin-transform-parameters': registry.npmjs.org/@babel/plugin-transform-parameters@7.22.3(@babel/core@7.12.9)
 
@@ -3363,7 +3374,7 @@ packages:
         optional: true
     dependencies:
       '@babel/core': registry.npmjs.org/@babel/core@7.12.9
-      '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils@7.10.4
+      '@babel/helper-plugin-utils': registry.npmjs.org/@babel/helper-plugin-utils@7.21.5
 
   registry.npmjs.org/@babel/plugin-syntax-jsx@7.21.4(@babel/core@7.19.6):
     resolution: {integrity: sha512-5hewiLct5OKyh6PLKEYaFclcqtIgCb6bmELouxjF6up5q3Sov7rOayW4RwhbaBL0dit8rA80GNfY+UuDp2mBbQ==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.21.4.tgz}
@@ -6271,7 +6282,7 @@ packages:
     dependencies:
       '@sinonjs/commons': registry.npmjs.org/@sinonjs/commons@3.0.0
 
-  registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute@6.5.1(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute@6.5.1(@babel/core@7.22.1):
     resolution: {integrity: sha512-9PYGcXrAxitycIjRmZB+Q0JaN07GZIWaTBIGQzfaZv+qr1n8X1XUEJ5rZ/vx6OVD9RRYlrNnXWExQXcmZeD/BQ==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-6.5.1.tgz}
     id: registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute/6.5.1
     name: '@svgr/babel-plugin-add-jsx-attribute'
@@ -6283,9 +6294,9 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
 
-  registry.npmjs.org/@svgr/babel-plugin-remove-jsx-attribute@8.0.0(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-plugin-remove-jsx-attribute@8.0.0(@babel/core@7.22.1):
     resolution: {integrity: sha512-BcCkm/STipKvbCl6b7QFrMh/vx00vIP63k2eM66MfHJzPr6O2U0jYEViXkHJWqXqQYjdeA9cuCl5KWmlwjDvbA==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-plugin-remove-jsx-attribute/-/babel-plugin-remove-jsx-attribute-8.0.0.tgz}
     id: registry.npmjs.org/@svgr/babel-plugin-remove-jsx-attribute/8.0.0
     name: '@svgr/babel-plugin-remove-jsx-attribute'
@@ -6297,9 +6308,9 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
 
-  registry.npmjs.org/@svgr/babel-plugin-remove-jsx-empty-expression@8.0.0(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-plugin-remove-jsx-empty-expression@8.0.0(@babel/core@7.22.1):
     resolution: {integrity: sha512-5BcGCBfBxB5+XSDSWnhTThfI9jcO5f0Ai2V24gZpG+wXF14BzwxxdDb4g6trdOux0rhibGs385BeFMSmxtS3uA==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-plugin-remove-jsx-empty-expression/-/babel-plugin-remove-jsx-empty-expression-8.0.0.tgz}
     id: registry.npmjs.org/@svgr/babel-plugin-remove-jsx-empty-expression/8.0.0
     name: '@svgr/babel-plugin-remove-jsx-empty-expression'
@@ -6311,9 +6322,9 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
 
-  registry.npmjs.org/@svgr/babel-plugin-replace-jsx-attribute-value@6.5.1(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-plugin-replace-jsx-attribute-value@6.5.1(@babel/core@7.22.1):
     resolution: {integrity: sha512-8DPaVVE3fd5JKuIC29dqyMB54sA6mfgki2H2+swh+zNJoynC8pMPzOkidqHOSc6Wj032fhl8Z0TVn1GiPpAiJg==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-plugin-replace-jsx-attribute-value/-/babel-plugin-replace-jsx-attribute-value-6.5.1.tgz}
     id: registry.npmjs.org/@svgr/babel-plugin-replace-jsx-attribute-value/6.5.1
     name: '@svgr/babel-plugin-replace-jsx-attribute-value'
@@ -6325,9 +6336,9 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
 
-  registry.npmjs.org/@svgr/babel-plugin-svg-dynamic-title@6.5.1(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-plugin-svg-dynamic-title@6.5.1(@babel/core@7.22.1):
     resolution: {integrity: sha512-FwOEi0Il72iAzlkaHrlemVurgSQRDFbk0OC8dSvD5fSBPHltNh7JtLsxmZUhjYBZo2PpcU/RJvvi6Q0l7O7ogw==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-plugin-svg-dynamic-title/-/babel-plugin-svg-dynamic-title-6.5.1.tgz}
     id: registry.npmjs.org/@svgr/babel-plugin-svg-dynamic-title/6.5.1
     name: '@svgr/babel-plugin-svg-dynamic-title'
@@ -6339,9 +6350,9 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
 
-  registry.npmjs.org/@svgr/babel-plugin-svg-em-dimensions@6.5.1(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-plugin-svg-em-dimensions@6.5.1(@babel/core@7.22.1):
     resolution: {integrity: sha512-gWGsiwjb4tw+ITOJ86ndY/DZZ6cuXMNE/SjcDRg+HLuCmwpcjOktwRF9WgAiycTqJD/QXqL2f8IzE2Rzh7aVXA==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-plugin-svg-em-dimensions/-/babel-plugin-svg-em-dimensions-6.5.1.tgz}
     id: registry.npmjs.org/@svgr/babel-plugin-svg-em-dimensions/6.5.1
     name: '@svgr/babel-plugin-svg-em-dimensions'
@@ -6353,9 +6364,9 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
 
-  registry.npmjs.org/@svgr/babel-plugin-transform-react-native-svg@6.5.1(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-plugin-transform-react-native-svg@6.5.1(@babel/core@7.22.1):
     resolution: {integrity: sha512-2jT3nTayyYP7kI6aGutkyfJ7UMGtuguD72OjeGLwVNyfPRBD8zQthlvL+fAbAKk5n9ZNcvFkp/b1lZ7VsYqVJg==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-plugin-transform-react-native-svg/-/babel-plugin-transform-react-native-svg-6.5.1.tgz}
     id: registry.npmjs.org/@svgr/babel-plugin-transform-react-native-svg/6.5.1
     name: '@svgr/babel-plugin-transform-react-native-svg'
@@ -6367,9 +6378,9 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
 
-  registry.npmjs.org/@svgr/babel-plugin-transform-svg-component@6.5.1(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-plugin-transform-svg-component@6.5.1(@babel/core@7.22.1):
     resolution: {integrity: sha512-a1p6LF5Jt33O3rZoVRBqdxL350oge54iZWHNI6LJB5tQ7EelvD/Mb1mfBiZNAan0dt4i3VArkFRjA4iObuNykQ==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-plugin-transform-svg-component/-/babel-plugin-transform-svg-component-6.5.1.tgz}
     id: registry.npmjs.org/@svgr/babel-plugin-transform-svg-component/6.5.1
     name: '@svgr/babel-plugin-transform-svg-component'
@@ -6381,9 +6392,9 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
 
-  registry.npmjs.org/@svgr/babel-preset@6.5.1(@babel/core@7.19.6):
+  registry.npmjs.org/@svgr/babel-preset@6.5.1(@babel/core@7.22.1):
     resolution: {integrity: sha512-6127fvO/FF2oi5EzSQOAjo1LE3OtNVh11R+/8FXa+mHx1ptAaS4cknIjnUA7e6j6fwGGJ17NzaTJFUwOV2zwCw==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/babel-preset/-/babel-preset-6.5.1.tgz}
     id: registry.npmjs.org/@svgr/babel-preset/6.5.1
     name: '@svgr/babel-preset'
@@ -6395,15 +6406,15 @@ packages:
       '@babel/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
-      '@svgr/babel-plugin-add-jsx-attribute': registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute@6.5.1(@babel/core@7.19.6)
-      '@svgr/babel-plugin-remove-jsx-attribute': registry.npmjs.org/@svgr/babel-plugin-remove-jsx-attribute@8.0.0(@babel/core@7.19.6)
-      '@svgr/babel-plugin-remove-jsx-empty-expression': registry.npmjs.org/@svgr/babel-plugin-remove-jsx-empty-expression@8.0.0(@babel/core@7.19.6)
-      '@svgr/babel-plugin-replace-jsx-attribute-value': registry.npmjs.org/@svgr/babel-plugin-replace-jsx-attribute-value@6.5.1(@babel/core@7.19.6)
-      '@svgr/babel-plugin-svg-dynamic-title': registry.npmjs.org/@svgr/babel-plugin-svg-dynamic-title@6.5.1(@babel/core@7.19.6)
-      '@svgr/babel-plugin-svg-em-dimensions': registry.npmjs.org/@svgr/babel-plugin-svg-em-dimensions@6.5.1(@babel/core@7.19.6)
-      '@svgr/babel-plugin-transform-react-native-svg': registry.npmjs.org/@svgr/babel-plugin-transform-react-native-svg@6.5.1(@babel/core@7.19.6)
-      '@svgr/babel-plugin-transform-svg-component': registry.npmjs.org/@svgr/babel-plugin-transform-svg-component@6.5.1(@babel/core@7.19.6)
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
+      '@svgr/babel-plugin-add-jsx-attribute': registry.npmjs.org/@svgr/babel-plugin-add-jsx-attribute@6.5.1(@babel/core@7.22.1)
+      '@svgr/babel-plugin-remove-jsx-attribute': registry.npmjs.org/@svgr/babel-plugin-remove-jsx-attribute@8.0.0(@babel/core@7.22.1)
+      '@svgr/babel-plugin-remove-jsx-empty-expression': registry.npmjs.org/@svgr/babel-plugin-remove-jsx-empty-expression@8.0.0(@babel/core@7.22.1)
+      '@svgr/babel-plugin-replace-jsx-attribute-value': registry.npmjs.org/@svgr/babel-plugin-replace-jsx-attribute-value@6.5.1(@babel/core@7.22.1)
+      '@svgr/babel-plugin-svg-dynamic-title': registry.npmjs.org/@svgr/babel-plugin-svg-dynamic-title@6.5.1(@babel/core@7.22.1)
+      '@svgr/babel-plugin-svg-em-dimensions': registry.npmjs.org/@svgr/babel-plugin-svg-em-dimensions@6.5.1(@babel/core@7.22.1)
+      '@svgr/babel-plugin-transform-react-native-svg': registry.npmjs.org/@svgr/babel-plugin-transform-react-native-svg@6.5.1(@babel/core@7.22.1)
+      '@svgr/babel-plugin-transform-svg-component': registry.npmjs.org/@svgr/babel-plugin-transform-svg-component@6.5.1(@babel/core@7.22.1)
 
   registry.npmjs.org/@svgr/core@6.5.1:
     resolution: {integrity: sha512-/xdLSWxK5QkqG524ONSjvg3V/FkNyCv538OIBdQqPNaAta3AsXj/Bd2FbvR87yMbXO2hFSWiAe/Q6IkVPDw+mw==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/@svgr/core/-/core-6.5.1.tgz}
@@ -6411,8 +6422,8 @@ packages:
     version: 6.5.1
     engines: {node: '>=10'}
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
-      '@svgr/babel-preset': registry.npmjs.org/@svgr/babel-preset@6.5.1(@babel/core@7.19.6)
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
+      '@svgr/babel-preset': registry.npmjs.org/@svgr/babel-preset@6.5.1(@babel/core@7.22.1)
       '@svgr/plugin-jsx': registry.npmjs.org/@svgr/plugin-jsx@6.5.1(@svgr/core@6.5.1)
       camelcase: registry.npmjs.org/camelcase@6.3.0
       cosmiconfig: registry.npmjs.org/cosmiconfig@7.1.0
@@ -6440,8 +6451,8 @@ packages:
       '@svgr/core':
         optional: true
     dependencies:
-      '@babel/core': registry.npmjs.org/@babel/core@7.19.6
-      '@svgr/babel-preset': registry.npmjs.org/@svgr/babel-preset@6.5.1(@babel/core@7.19.6)
+      '@babel/core': registry.npmjs.org/@babel/core@7.22.1
+      '@svgr/babel-preset': registry.npmjs.org/@svgr/babel-preset@6.5.1(@babel/core@7.22.1)
       '@svgr/core': registry.npmjs.org/@svgr/core@6.5.1
       '@svgr/hast-util-to-babel-ast': registry.npmjs.org/@svgr/hast-util-to-babel-ast@6.5.1
       svg-parser: registry.npmjs.org/svg-parser@2.0.4
@@ -7340,7 +7351,7 @@ packages:
       '@teambit/base-ui.input.error': registry.npmjs.org/@teambit/base-ui.input.error@1.0.1(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.surfaces.split-pane.hover-splitter': registry.npmjs.org/@teambit/base-ui.surfaces.split-pane.hover-splitter@1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.surfaces.split-pane.split-pane': registry.npmjs.org/@teambit/base-ui.surfaces.split-pane.split-pane@1.0.0(react-dom@18.2.0)(react@18.2.0)
-      classnames: registry.npmjs.org/classnames@2.2.6
+      classnames: registry.npmjs.org/classnames@2.3.1
       core-js: registry.npmjs.org/core-js@3.30.2
       prism-react-renderer: registry.npmjs.org/prism-react-renderer@1.3.5(react@18.2.0)
       react: registry.npmjs.org/react@18.2.0
@@ -7370,7 +7381,7 @@ packages:
       '@teambit/base-ui.input.error': registry.npmjs.org/@teambit/base-ui.input.error@1.0.1(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.surfaces.split-pane.hover-splitter': registry.npmjs.org/@teambit/base-ui.surfaces.split-pane.hover-splitter@1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.surfaces.split-pane.split-pane': registry.npmjs.org/@teambit/base-ui.surfaces.split-pane.split-pane@1.0.0(react-dom@18.2.0)(react@18.2.0)
-      classnames: registry.npmjs.org/classnames@2.2.6
+      classnames: registry.npmjs.org/classnames@2.3.1
       core-js: registry.npmjs.org/core-js@3.30.2
       prism-react-renderer: registry.npmjs.org/prism-react-renderer@1.3.5(react@18.2.0)
       react: registry.npmjs.org/react@18.2.0
@@ -7400,7 +7411,7 @@ packages:
       '@teambit/base-ui.input.error': registry.npmjs.org/@teambit/base-ui.input.error@1.0.1(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.surfaces.split-pane.hover-splitter': registry.npmjs.org/@teambit/base-ui.surfaces.split-pane.hover-splitter@1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.surfaces.split-pane.split-pane': registry.npmjs.org/@teambit/base-ui.surfaces.split-pane.split-pane@1.0.0(react-dom@18.2.0)(react@18.2.0)
-      classnames: registry.npmjs.org/classnames@2.2.6
+      classnames: registry.npmjs.org/classnames@2.3.1
       core-js: registry.npmjs.org/core-js@3.30.2
       prism-react-renderer: registry.npmjs.org/prism-react-renderer@1.3.5(react@18.2.0)
       react: registry.npmjs.org/react@18.2.0
@@ -7429,7 +7440,7 @@ packages:
       '@teambit/base-ui.input.error': registry.npmjs.org/@teambit/base-ui.input.error@1.0.1(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.surfaces.split-pane.hover-splitter': registry.npmjs.org/@teambit/base-ui.surfaces.split-pane.hover-splitter@1.0.0(react-dom@18.2.0)(react@18.2.0)
       '@teambit/base-ui.surfaces.split-pane.split-pane': registry.npmjs.org/@teambit/base-ui.surfaces.split-pane.split-pane@1.0.0(react-dom@18.2.0)(react@18.2.0)
-      classnames: registry.npmjs.org/classnames@2.2.6
+      classnames: registry.npmjs.org/classnames@2.3.1
       core-js: registry.npmjs.org/core-js@3.30.2
       prism-react-renderer: registry.npmjs.org/prism-react-renderer@1.3.5(react@18.2.0)
       react: registry.npmjs.org/react@18.2.0
@@ -8086,7 +8097,7 @@ packages:
     dependencies:
       '@teambit/documenter.ui.anchor': registry.npmjs.org/@teambit/documenter.ui.anchor@4.0.6(react-dom@18.2.0)(react@18.2.0)
       '@teambit/documenter.ui.heading': registry.npmjs.org/@teambit/documenter.ui.heading@4.1.4(react-dom@18.2.0)(react@18.2.0)
-      classnames: registry.npmjs.org/classnames@2.2.6
+      classnames: registry.npmjs.org/classnames@2.3.1
       core-js: registry.npmjs.org/core-js@3.30.2
       react: registry.npmjs.org/react@18.2.0
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
@@ -8269,7 +8280,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      classnames: registry.npmjs.org/classnames@2.2.6
+      classnames: registry.npmjs.org/classnames@2.3.1
       core-js: registry.npmjs.org/core-js@3.30.2
       react: registry.npmjs.org/react@18.2.0
       react-dom: registry.npmjs.org/react-dom@18.2.0(react@18.2.0)
@@ -14780,7 +14791,7 @@ packages:
       '@types/parse5': registry.npmjs.org/@types/parse5@5.0.3
       hastscript: registry.npmjs.org/hastscript@6.0.0
       property-information: registry.npmjs.org/property-information@5.6.0
-      vfile: registry.npmjs.org/vfile@4.2.0
+      vfile: registry.npmjs.org/vfile@4.2.1
       vfile-location: registry.npmjs.org/vfile-location@3.2.0
       web-namespaces: registry.npmjs.org/web-namespaces@1.1.4
 
@@ -14800,7 +14811,7 @@ packages:
       html-void-elements: registry.npmjs.org/html-void-elements@1.0.5
       parse5: registry.npmjs.org/parse5@6.0.1
       unist-util-position: registry.npmjs.org/unist-util-position@3.1.0
-      vfile: registry.npmjs.org/vfile@4.2.0
+      vfile: registry.npmjs.org/vfile@4.2.1
       web-namespaces: registry.npmjs.org/web-namespaces@1.1.4
       xtend: registry.npmjs.org/xtend@4.0.2
       zwitch: registry.npmjs.org/zwitch@1.0.5
@@ -18608,7 +18619,7 @@ packages:
       '@csstools/postcss-trigonometric-functions': registry.npmjs.org/@csstools/postcss-trigonometric-functions@1.0.2(postcss@8.4.19)
       '@csstools/postcss-unset-value': registry.npmjs.org/@csstools/postcss-unset-value@1.0.2(postcss@8.4.19)
       autoprefixer: registry.npmjs.org/autoprefixer@10.4.14(postcss@8.4.19)
-      browserslist: registry.npmjs.org/browserslist@4.21.4
+      browserslist: registry.npmjs.org/browserslist@4.21.7
       css-blank-pseudo: registry.npmjs.org/css-blank-pseudo@3.0.3(postcss@8.4.19)
       css-has-pseudo: registry.npmjs.org/css-has-pseudo@3.0.4(postcss@8.4.19)
       css-prefers-color-scheme: registry.npmjs.org/css-prefers-color-scheme@6.0.3(postcss@8.4.19)
@@ -19118,7 +19129,7 @@ packages:
     dependencies:
       '@babel/code-frame': registry.npmjs.org/@babel/code-frame@7.21.4
       address: registry.npmjs.org/address@1.2.2
-      browserslist: registry.npmjs.org/browserslist@4.21.4
+      browserslist: registry.npmjs.org/browserslist@4.21.7
       chalk: registry.npmjs.org/chalk@4.1.2
       cross-spawn: registry.npmjs.org/cross-spawn@7.0.3
       detect-port-alt: registry.npmjs.org/detect-port-alt@1.1.6
@@ -19164,7 +19175,7 @@ packages:
     dependencies:
       '@babel/code-frame': registry.npmjs.org/@babel/code-frame@7.21.4
       address: registry.npmjs.org/address@1.2.2
-      browserslist: registry.npmjs.org/browserslist@4.21.4
+      browserslist: registry.npmjs.org/browserslist@4.21.7
       chalk: registry.npmjs.org/chalk@4.1.2
       cross-spawn: registry.npmjs.org/cross-spawn@7.0.3
       detect-port-alt: registry.npmjs.org/detect-port-alt@1.1.6
@@ -20760,36 +20771,6 @@ packages:
     version: 2.2.1
     engines: {node: '>=6'}
 
-  registry.npmjs.org/terser-webpack-plugin@5.2.0(esbuild@0.14.28)(webpack@5.51.1):
-    resolution: {integrity: sha512-FpR4Qe0Yt4knSQ5u2bA1wkM0R8VlVsvhyfSHvomXRivS4vPLk0dJV2IhRBIHRABh7AFutdMeElIA5y1dETwMBg==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.2.0.tgz}
-    id: registry.npmjs.org/terser-webpack-plugin/5.2.0
-    name: terser-webpack-plugin
-    version: 5.2.0
-    engines: {node: '>= 10.13.0'}
-    peerDependencies:
-      '@swc/core': '*'
-      esbuild: '*'
-      uglify-js: '*'
-      webpack: '*'
-    peerDependenciesMeta:
-      '@swc/core':
-        optional: true
-      esbuild:
-        optional: true
-      uglify-js:
-        optional: true
-      webpack:
-        optional: true
-    dependencies:
-      esbuild: registry.npmjs.org/esbuild@0.14.28
-      jest-worker: registry.npmjs.org/jest-worker@27.5.1
-      p-limit: registry.npmjs.org/p-limit@3.1.0
-      schema-utils: registry.npmjs.org/schema-utils@3.2.0
-      serialize-javascript: registry.npmjs.org/serialize-javascript@6.0.1
-      source-map: registry.npmjs.org/source-map@0.6.1
-      terser: registry.npmjs.org/terser@5.17.7
-      webpack: registry.npmjs.org/webpack@5.51.1(esbuild@0.14.28)
-
   registry.npmjs.org/terser-webpack-plugin@5.2.0(esbuild@0.14.28)(webpack@5.84.1):
     resolution: {integrity: sha512-FpR4Qe0Yt4knSQ5u2bA1wkM0R8VlVsvhyfSHvomXRivS4vPLk0dJV2IhRBIHRABh7AFutdMeElIA5y1dETwMBg==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.2.0.tgz}
     id: registry.npmjs.org/terser-webpack-plugin/5.2.0
@@ -20819,6 +20800,35 @@ packages:
       source-map: registry.npmjs.org/source-map@0.6.1
       terser: registry.npmjs.org/terser@5.17.7
       webpack: registry.npmjs.org/webpack@5.84.1(esbuild@0.14.28)
+
+  registry.npmjs.org/terser-webpack-plugin@5.3.9(esbuild@0.14.28)(webpack@5.51.1):
+    resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.9.tgz}
+    id: registry.npmjs.org/terser-webpack-plugin/5.3.9
+    name: terser-webpack-plugin
+    version: 5.3.9
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      '@swc/core': '*'
+      esbuild: '*'
+      uglify-js: '*'
+      webpack: '*'
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      esbuild:
+        optional: true
+      uglify-js:
+        optional: true
+      webpack:
+        optional: true
+    dependencies:
+      '@jridgewell/trace-mapping': registry.npmjs.org/@jridgewell/trace-mapping@0.3.18
+      esbuild: registry.npmjs.org/esbuild@0.14.28
+      jest-worker: registry.npmjs.org/jest-worker@27.5.1
+      schema-utils: registry.npmjs.org/schema-utils@3.2.0
+      serialize-javascript: registry.npmjs.org/serialize-javascript@6.0.1
+      terser: registry.npmjs.org/terser@5.17.7
+      webpack: registry.npmjs.org/webpack@5.51.1(esbuild@0.14.28)
 
   registry.npmjs.org/terser-webpack-plugin@5.3.9(esbuild@0.14.28)(webpack@5.84.1):
     resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.9.tgz}
@@ -20987,10 +20997,9 @@ packages:
     version: 1.1.4
 
   registry.npmjs.org/trim@0.0.1:
-    resolution: {integrity: sha512-YzQV+TZg4AxpKxaTHK3c3D+kRDCGVEE7LemdlQZoQXn0iennk10RsIoY6ikzAqJTc9Xjl9C1/waHom/J86ziAQ==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/trim/-/trim-0.0.1.tgz}
+    resolution: {integrity: sha1-WFhUf2spB1fulczMZm+1AITEYN0=, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/trim/-/trim-0.0.1.tgz}
     name: trim
     version: 0.0.1
-    deprecated: Use String.prototype.trim() instead
 
   registry.npmjs.org/trough@1.0.5:
     resolution: {integrity: sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/trough/-/trough-1.0.5.tgz}
@@ -21193,7 +21202,7 @@ packages:
       extend: registry.npmjs.org/extend@3.0.2
       is-plain-obj: registry.npmjs.org/is-plain-obj@2.1.0
       trough: registry.npmjs.org/trough@1.0.5
-      vfile: registry.npmjs.org/vfile@4.2.0
+      vfile: registry.npmjs.org/vfile@4.2.1
 
   registry.npmjs.org/unified@9.2.0:
     resolution: {integrity: sha512-vx2Z0vY+a3YoTj8+pttM3tiJHCwY5UFbYdiWrwBEbHmK8pvsPj2rtAX2BFfgXen8T39CJWblWRDT4L5WGXtDdg==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/unified/-/unified-9.2.0.tgz}
@@ -21688,7 +21697,7 @@ packages:
       neo-async: registry.npmjs.org/neo-async@2.6.2
       schema-utils: registry.npmjs.org/schema-utils@3.2.0
       tapable: registry.npmjs.org/tapable@2.2.1
-      terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin@5.2.0(esbuild@0.14.28)(webpack@5.51.1)
+      terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin@5.3.9(esbuild@0.14.28)(webpack@5.51.1)
       watchpack: registry.npmjs.org/watchpack@2.4.0
       webpack-sources: registry.npmjs.org/webpack-sources@3.2.3
     transitivePeerDependencies:
