@@ -1,12 +1,14 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Heading } from '@ashwanth1109/remote.ui.heading';
 
 export function MyApp() {
-  //   return <h1>Hello World!</h1>;
   return (
-    <Routes>
-      <Route path="/" element={<h1>Hello World!</h1>} />
-      <Route path="/blog/*" element={<h1>Blog page!</h1>} />
-    </Routes>
+    <div className="bg-black-primary">
+      <Routes>
+        <Route path="/" element={<Heading>Hello World!</Heading>} />
+        <Route path="/blog/*" element={<h1>Blog page!</h1>} />
+      </Routes>
+    </div>
   );
 }

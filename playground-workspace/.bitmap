@@ -10,13 +10,13 @@
 
 {
     "apps/my-app": {
-        "scope": "",
-        "version": "",
+        "scope": "ashwanth1109.remote",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "remote/apps/my-app",
         "nextVersion": {
             "version": "patch",
-            "message": "soft tag after adding publish pipeline",
+            "message": "tailwind theme working",
             "username": "ashwanth1109",
             "email": "ashwanth1109@gmail.com"
         },
@@ -28,13 +28,13 @@
         }
     },
     "config/tailwind": {
-        "scope": "",
-        "version": "",
+        "scope": "ashwanth1109.remote",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "remote/config/tailwind",
         "nextVersion": {
             "version": "patch",
-            "message": "soft tag after adding publish pipeline",
+            "message": "tailwind theme working",
             "username": "ashwanth1109",
             "email": "ashwanth1109@gmail.com"
         },
@@ -66,14 +66,14 @@
         }
     },
     "envs/my-react-env": {
-        "scope": "",
-        "version": "",
+        "scope": "ashwanth1109.remote",
+        "version": "0.0.1",
         "defaultScope": "ashwanth1109.remote",
         "mainFile": "index.ts",
         "rootDir": "remote/envs/my-react-env",
         "nextVersion": {
             "version": "patch",
-            "message": "soft tag after adding publish pipeline",
+            "message": "tailwind theme working",
             "username": "ashwanth1109",
             "email": "ashwanth1109@gmail.com"
         },
@@ -97,13 +97,13 @@
         }
     },
     "ui/heading": {
-        "scope": "",
-        "version": "",
+        "scope": "ashwanth1109.remote",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "remote/ui/heading",
         "nextVersion": {
             "version": "patch",
-            "message": "soft tag after adding publish pipeline",
+            "message": "tailwind theme working",
             "username": "ashwanth1109",
             "email": "ashwanth1109@gmail.com"
         },
