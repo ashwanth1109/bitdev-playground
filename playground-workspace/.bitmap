@@ -11,108 +11,28 @@
 {
     "apps/my-app": {
         "scope": "ashwanth1109.remote",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "remote/apps/my-app",
-        "nextVersion": {
-            "version": "patch",
-            "message": "tailwind theme working",
-            "username": "ashwanth1109",
-            "email": "ashwanth1109@gmail.com"
-        },
-        "config": {
-            "teambit.react/react-env@0.0.68": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react-env"
-            }
-        }
+        "rootDir": "remote/apps/my-app"
     },
     "config/tailwind": {
         "scope": "ashwanth1109.remote",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "remote/config/tailwind",
-        "nextVersion": {
-            "version": "patch",
-            "message": "tailwind theme working",
-            "username": "ashwanth1109",
-            "email": "ashwanth1109@gmail.com"
-        },
-        "config": {
-            "teambit.harmony/node": {},
-            "teambit.envs/envs": {
-                "env": "teambit.harmony/node"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.component/renaming": {
-                "renamedFrom": {
-                    "scope": "learnbit-react.tailwind",
-                    "name": "tailwind-config",
-                    "version": "0.0.6"
-                }
-            },
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "learnbit.styling",
-                    "name": "config/tailwind",
-                    "version": "0.0.2"
-                }
-            }
-        }
+        "rootDir": "remote/config/tailwind"
     },
     "envs/my-react-env": {
         "scope": "ashwanth1109.remote",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "defaultScope": "ashwanth1109.remote",
         "mainFile": "index.ts",
-        "rootDir": "remote/envs/my-react-env",
-        "nextVersion": {
-            "version": "patch",
-            "message": "tailwind theme working",
-            "username": "ashwanth1109",
-            "email": "ashwanth1109@gmail.com"
-        },
-        "config": {
-            "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "teambit.react",
-                    "name": "react-env-extension",
-                    "version": "0.0.28"
-                }
-            }
-        }
+        "rootDir": "remote/envs/my-react-env"
     },
     "ui/heading": {
         "scope": "ashwanth1109.remote",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "remote/ui/heading",
-        "nextVersion": {
-            "version": "patch",
-            "message": "tailwind theme working",
-            "username": "ashwanth1109",
-            "email": "ashwanth1109@gmail.com"
-        },
-        "config": {
-            "ashwanth1109.remote/envs/my-react-env": {},
-            "teambit.envs/envs": {
-                "env": "ashwanth1109.remote/envs/my-react-env"
-            }
-        }
+        "rootDir": "remote/ui/heading"
     },
     "$schema-version": "15.0.0"
 }
