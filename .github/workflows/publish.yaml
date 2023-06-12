@@ -9,6 +9,9 @@ jobs:
   publish-artifacts:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'skip-ci')"
+    defaults:
+      run:
+        working-directory: ./playground-workspace
 
     # Run job with CICD bit token
     env:
@@ -28,7 +31,6 @@ jobs:
         run: bvm install
       - name: add bvm bin folder to path
         run: echo "$HOME/bin" >> $GITHUB_PATH
-        working-directory: playground-workspace
       # Set the right bit config for the pipeline
       - name: Bit config
         run: |
