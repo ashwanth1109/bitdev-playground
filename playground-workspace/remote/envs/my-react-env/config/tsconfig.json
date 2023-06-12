@@ -3,5 +3,8 @@
  */
 {
   "extends": "@teambit/react.react-env/config/tsconfig.json",
-  "include": ["**/*", "**/*.json"]
+  "include": ["**/*", "**/*.json"],
+  "compilerOptions": {
+    "esModuleInterop": true
+  }
 }
