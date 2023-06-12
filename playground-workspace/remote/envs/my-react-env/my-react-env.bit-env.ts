@@ -20,7 +20,7 @@ import { Preview } from '@teambit/preview';
 import { tailwindTransformer } from '@learnbit/styling.transformers.tailwind';
 import myCustomTailwindConfig from '@ashwanth1109/remote.config.tailwind';
 import hostDependencies from './preview/host-dependencies';
-// import { webpackTransformer } from './config/webpack.config';
+import { webpackTransformer } from './config/webpack.config';
 
 export class MyReactEnv extends ReactEnv {
   /* a shorthand name for the env */
@@ -85,6 +85,7 @@ export class MyReactEnv extends ReactEnv {
       mounter: require.resolve('./preview/mounter'),
       hostDependencies,
       transformers: [
+        webpackTransformer,
         tailwindTransformer({
           config: myCustomTailwindConfig,
         }),

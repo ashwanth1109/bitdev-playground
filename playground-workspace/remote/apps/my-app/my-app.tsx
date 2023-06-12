@@ -7,7 +7,7 @@ export function MyApp() {
     <div className="bg-black-primary">
       <Routes>
         <Route path="/" element={<Heading>Hello World!</Heading>} />
-        <Route path="/blog/*" element={<h1>Blog page!</h1>} />
+        <Route path="/blog/*" element={<Heading>Blog page!</Heading>} />
       </Routes>
     </div>
   );
