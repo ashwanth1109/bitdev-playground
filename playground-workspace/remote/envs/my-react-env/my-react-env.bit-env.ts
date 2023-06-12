@@ -17,6 +17,8 @@ import { JestTester, JestTask } from '@teambit/defender.jest-tester';
 import { PrettierFormatter } from '@teambit/defender.prettier-formatter';
 import { Tester } from '@teambit/tester';
 import { Preview } from '@teambit/preview';
+import { tailwindTransformer } from '@learnbit/styling.transformers.tailwind';
+import myCustomTailwindConfig from '@ashwanth1109/remote.config.tailwind';
 import hostDependencies from './preview/host-dependencies';
 // import { webpackTransformer } from './config/webpack.config';
 
@@ -82,7 +84,11 @@ export class MyReactEnv extends ReactEnv {
     return ReactPreview.from({
       mounter: require.resolve('./preview/mounter'),
       hostDependencies,
-      // transformers: [webpackTransformer],
+      transformers: [
+        tailwindTransformer({
+          config: myCustomTailwindConfig,
+        }),
+      ],
     });
   }
 

@@ -78,5 +78,17 @@
             }
         }
     },
+    "ui/heading": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "remote/ui/heading",
+        "config": {
+            "ashwanth1109.remote/envs/my-react-env": {},
+            "teambit.envs/envs": {
+                "env": "ashwanth1109.remote/envs/my-react-env"
+            }
+        }
+    },
     "$schema-version": "15.0.0"
 }
