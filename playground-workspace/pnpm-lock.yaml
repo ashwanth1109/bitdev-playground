@@ -4,6 +4,9 @@ importers:
 
   .:
     dependencies:
+      '@learnbit/styling.config.tailwind':
+        specifier: ^0.0.2
+        version: 0.0.2
       '@learnbit/styling.transformers.tailwind':
         specifier: ^0.0.5
         version: 0.0.5
@@ -417,6 +420,9 @@ importers:
 
   remote/ui/heading:
     dependencies:
+      '@learnbit/styling.config.tailwind':
+        specifier: ^0.0.2
+        version: 0.0.2
       '@mdx-js/react':
         specifier: 1.6.22
         version: registry.npmjs.org/@mdx-js/react@1.6.22(react@18.2.0)
@@ -1718,6 +1724,7 @@ packages:
       react:
         optional: true
     dependencies:
+      '@learnbit/styling.config.tailwind': 0.0.2
       react: registry.npmjs.org/react@18.2.0
     dev: false
 

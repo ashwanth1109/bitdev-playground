@@ -39,6 +39,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@learnbit/styling.config.tailwind": "^0.0.2",
         "@learnbit/styling.transformers.tailwind": "^0.0.5",
         "@tailwindcss/typography": "^0.5.9",
         "@teambit/defender.eslint-linter": "0.0.10",
